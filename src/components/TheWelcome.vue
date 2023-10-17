@@ -21,7 +21,7 @@
                   antidiabetic evaluations, as well as assessments of pH and salt tolerance. I am
                   fervently enthusiastic about honing and advancing my laboratory skills with the
                   overarching goal of generating innovations that hold a constructive societal
-                  impact.
+                  impact. hello
                 </p>
                 <img
                   class="absolute right-10 -mt-80"
