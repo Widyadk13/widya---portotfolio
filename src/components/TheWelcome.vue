@@ -26,7 +26,7 @@
                 <img
                   class="absolute right-10 -mt-80"
                   alt="icon"
-                  src="@/assets/static/homepage/Group 23.svg "
+                  src="@/assets/static/homepage/orang.svg "
                   width="800px"
                 />
               </div>
