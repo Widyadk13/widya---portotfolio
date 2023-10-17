@@ -26,7 +26,7 @@
                 <img
                   class="absolute right-10 -mt-80"
                   alt="icon"
-                  src="../assets/static/homepage/Group 23.svg "
+                  src="@/assets/static/homepage/Group 23.svg "
                   width="800px"
                 />
               </div>
@@ -35,24 +35,24 @@
                 <a
                   href="https://api.whatsapp.com/send/?phone=6282340330228&text&type=phone_number&app_absent=0"
                   target="_blank"
-                  ><img class="mr-7" alt="icon" src="../assets/static/homepage/wa.svg"
+                  ><img class="mr-7" alt="icon" src="@/assets/static/homepage/wa.svg"
                 /></a>
                 <a href="https://www.instagram.com/homawari__/" target="_blank"
-                  ><img class="mr-9" alt="icon" src="../assets/static/homepage/instagram.svg"
+                  ><img class="mr-9" alt="icon" src="@/assets/static/homepage/instagram.svg"
                 /></a>
                 <a href="https://www.linkedin.com/in/widya-dwi-kusuma-3358b8224/" target="_blank">
-                  <img class="mr-9" alt="icon" src="../assets/static/homepage/linkedin.svg"
+                  <img class="mr-9" alt="icon" src="@/assets/static/homepage/linkedin.svg"
                 /></a>
                 <a
                   href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=widyadwikusuma18@gmail.com"
                   target="_blank"
-                  ><img class="mr-9" alt="icon" src="../assets/static/homepage/gmail.svg"
+                  ><img class="mr-9" alt="icon" src="@/assets/static/homepage/gmail.svg"
                 /></a>
                 <a href="https://github.com/Widyadk13" target="_blank">
                   <img
                     class="mr-9"
                     alt="icon"
-                    src="../assets/static/homepage/github.svg"
+                    src="@/assets/static/homepage/github.svg"
                     target="_blank"
                   />
                 </a>
