@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full relative pb-1 lg:pt-10 overflow-hidden">
+    <div class="w-full relative pb-1 lg:pt-4 overflow-hidden">
       <div
         id="modalParent"
         class="col-span-5 w-70 mx-28 ml-20 rounded-5xl shadow-nonde lg:shadow-card-secondary"
@@ -13,19 +13,25 @@
               <img
                 alt="icon"
                 class="logo"
-                src="../src//assets/favIcon.svg"
+                src="../src/assets/favIcon.svg"
                 width="200"
                 height="200"
               />
-              <div>
-                <nav class="flex justify-between">
-                  <h1 class="p-5 text-emerald-800 font-bold">HOME</h1>
-                  <h1 class="p-5 text-emerald-800 font-bold">PENDIDIKAN</h1>
-                  <h1 class="p-5 text-emerald-800 font-bold">PENGALAMAN</h1>
-                  <h1 class="p-5 text-emerald-800 font-bold">PROJEK</h1>
-                  <h1 class="p-5 text-emerald-800 font-bold">KONTAK SAYA</h1>
-                </nav>
-              </div>
+              <nav class="flex justify-between">
+                <router-link to="/" class="p-5 text-emerald-800 font-bold">HOME</router-link>
+                <router-link to="/pendidikan" class="p-5 text-emerald-800 font-bold"
+                  >PENDIDIKAN</router-link
+                >
+                <router-link to="/pengalaman" class="p-5 text-emerald-800 font-bold"
+                  >PENGALAMAN</router-link
+                >
+                <router-link to="/projek" class="p-5 text-emerald-800 font-bold"
+                  >PROJEK</router-link
+                >
+                <router-link to="/kontak-saya" class="p-5 text-emerald-800 font-bold"
+                  >KONTAK SAYA</router-link
+                >
+              </nav>
             </div>
           </div>
         </form>
