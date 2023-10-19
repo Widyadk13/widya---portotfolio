@@ -8,14 +8,14 @@
         <form class="block">
           <div>
             <div
-              class="bg-[#dcefe3] relative w-full sm:max-w-full min-h-0 lg:shadow-xl rounded-xl pb-6 pt-6 border place-items-center p-7 flex justify-between"
+              class="bg-[#dcefe3] relative w-full h-32 sm:max-w-full min-h-0 lg:shadow-xl rounded-xl pb-6 pt-6 border place-items-center p-7 flex justify-between"
             >
               <img
                 alt="icon"
-                class="logo"
-                src="../src/assets/favIcon.svg"
-                width="200"
-                height="200"
+                class="logo shadow-logo"
+                src="../src/assets//static//navbar/widya-fiks.svg"
+                width="220"
+                height="100"
               />
               <nav class="flex justify-between">
                 <router-link to="/" class="p-5 text-emerald-800 font-bold">HOME</router-link>
@@ -38,7 +38,6 @@
       </div>
     </div>
   </div>
-
   <RouterView />
 </template>
 

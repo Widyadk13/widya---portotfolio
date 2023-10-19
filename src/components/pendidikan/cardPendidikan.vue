@@ -1,4 +1,3 @@
-export default
 <template>
   <div>
     <div class="pb-12">
