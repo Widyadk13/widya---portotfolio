@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full relative lg:pt-8 overflow-hidden">
+  <div class="w-full relative lg:pt-6 overflow-hidden">
     <div
       id="modalParent"
       class="col-span-5 w-70 mx-28 ml-20 rounded-5xl shadow-nonde lg:shadow-card-secondary"
@@ -7,8 +7,13 @@
       <form class="block">
         <div>
           <div
-            class="bg-[#dcefe3] relative w-full sm:max-w-full min-h-0 lg:shadow-xl rounded-xl border place-items-center flex justify-between"
+            class="bg-[#dcefe3] relative w-full sm:max-w-full min-h-0 lg:shadow-xl rounded-xl border place-items-center mt-2"
           >
+            <img
+              class="absolute w-full"
+              alt="icon"
+              src="../../../assets/static/homepage/bg-paper.svg"
+            />
             <div class="text-[#1d4838] p-20">
               <p class="text-5xl font-bold mb-6">Widya Dwi Kusuma</p>
               <h1 class="text-2xl font-bold">(Widya)</h1>
@@ -24,7 +29,7 @@
                   impact. hello
                 </p>
                 <img
-                  class="absolute right-10 -mt-80"
+                  class="absolute right-10 -mt-80 lg:w-600px"
                   alt="icon"
                   src="../../../assets/static/homepage/orang.svg"
                   width="800px"

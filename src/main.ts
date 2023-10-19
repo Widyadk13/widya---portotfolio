@@ -12,3 +12,6 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+app.component('font-awesome', FontAwesomeIcon)
