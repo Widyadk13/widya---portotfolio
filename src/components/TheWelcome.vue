@@ -59,7 +59,7 @@
               </div>
               <div class="mt-14" type="button">
                 <button
-                  class="h-16 shadow-button transform m-1 w-auto py-2 px-4 justify-center scale-95 focus:bg-emerald-400 focus:text-white bg-[#1d4838] text-whitefont-semibold hover:text-white rounded-full"
+                  class="h-16 transform m-1 w-auto py-2 px-4 justify-center scale-95 focus:bg-emerald-400 focus:text-white bg-[#1d4838] text-whitefont-semibold hover:text-white rounded-full"
                 >
                   <p class="text-3xl text-white font-bold scale-75">Star Me On Github</p>
                 </button>

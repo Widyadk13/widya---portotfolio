@@ -13,7 +13,7 @@
               width="400px"
             />
             <div>
-              <div class="text-[#1d4838] p-10">
+              <div class="text-[#1d4838] p-12">
                 <p class="text-5xl font-bold mb-6">Pendidikan</p>
 
                 <div class="flex justify-center">
@@ -62,9 +62,9 @@
                           </p>
                         </div>
                         <div class="ml-8 p-4">
-                          <div class="mt-14">
+                          <div class="mt-14" type="button">
                             <button
-                              class="h-14 shadow-button transform w-auto py-2 px-4 justify-center scale-75 focus:bg-emerald-400 focus:text-white bg-[#1d4838] text-white font-semibold hover:text-white rounded-xl"
+                              class="h-14 shadow-button transform w-auto py-2 px-4 justify-center scale-75 focus:bg-emerald-400 focus:text-white bg-[#1d4838] text-white font-semibold hover:bg-yellow-500 hover:text-white rounded-full"
                             >
                               <p class="text-lg text-white font-bold">Visit Website</p>
                             </button>
@@ -104,7 +104,7 @@
                         <div class="ml-8 p-4">
                           <div class="mt-14">
                             <button
-                              class="h-14 shadow-button transform w-auto py-2 px-4 justify-center scale-75 focus:bg-emerald-400 focus:text-white bg-[#1d4838] text-white font-semibold hover:text-white rounded-xl"
+                              class="h-14 shadow-button transform w-auto py-2 px-4 justify-center scale-75 focus:bg-emerald-400 focus:text-white bg-[#1d4838] text-white font-semibold hover:bg-yellow-500 hover:text-white rounded-full"
                             >
                               <p class="text-lg text-white font-bold">Visit Website</p>
                             </button>

@@ -14,18 +14,18 @@
               alt="icon"
               src="../../../assets/static/homepage/bg-paper.svg"
             />
-            <div class="text-[#1d4838] p-20">
+            <div class="text-[#1d4838] p-auto m-16">
               <p class="text-5xl font-bold mb-20">Pengalaman & Sertifikasi</p>
               <div class="w-auto">
-                <div class="flex justify-between3">
+                <div class="flex justify-between z-10">
                   <img
                     class="absolute right-10 -mt-60 lg:w-600px"
                     alt="icon"
                     src="../../../assets/static/pengalaman/pengalaman-1.svg"
                     width="800px"
                   />
-                  <div>
-                    <div class="bg-[#1d4838] rounded-2xl w-96 h-14 font-bold mb-8">
+                  <div type="button" class="cursor-grab z-10">
+                    <div class="bg-[#1d4838] rounded-2xl w-96 h-14 font-bold mb-8" type="button">
                       <p class="text-white text-xl p-3">Pengalaman Kerja</p>
                     </div>
                     <div class="bg-[#1d4838] rounded-2xl w-96 h-14 font-bold mb-8">
