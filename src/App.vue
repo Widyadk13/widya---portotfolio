@@ -12,7 +12,7 @@
             >
               <img
                 alt="icon"
-                class="logo shadow-logo"
+                class="logo hover:brightness-200 cursor-pointer"
                 src="../src/assets//static//navbar/widya-fiks.svg"
                 width="220"
                 height="100"
@@ -41,8 +41,34 @@
   <RouterView />
 </template>
 
-<script setup lang="ts">
+<script>
 import { RouterLink, RouterView } from 'vue-router'
+
+// Ambil semua elemen gambar dengan kelas hover-effect
+const images = document.querySelectorAll('.hover-effect')
+
+// Fungsi untuk menangani perubahan perilaku saat gambar diklik
+function handleImageClick(event) {
+  const image = event.target
+
+  // Ambil nilai dari atribut data-id
+  const dataId = image.getAttribute('data-id')
+
+  if (dataId === 'whatsapp') {
+    // Contoh: menambahkan efek brightness saat gambar WhatsApp diklik
+    image.classList.add('hover:brightness-110')
+  }
+
+  // Anda dapat menambahkan logika lain untuk gambar lain di sini
+
+  // Menghapus event listener setelah gambar diklik sekali
+  image.removeEventListener('click', handleImageClick)
+}
+
+// Tambahkan event listener untuk setiap gambar
+images.forEach((image) => {
+  image.addEventListener('click', handleImageClick)
+})
 </script>
 
 <!-- <style scoped>
